@@ -6,11 +6,17 @@
 
   <ItemGroup>
     <None Remove="Context\DatabaseContext.cs~RFa429b2.TMP" />
+    <None Remove="Interfaces\INotifications.cs~RFf2b9d1.TMP" />
+    <None Remove="Models\User.cs~RFba5470.TMP" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
   </ItemGroup>
 
 </Project>
