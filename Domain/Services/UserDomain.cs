@@ -17,7 +17,7 @@ namespace Domain.Services
             _hashProvider = hashProvider;
         }
 
-        public List<User> GetUser()
+        public List<User> GetUsers()
         {
             return _userProvider.GetUsers();
         }

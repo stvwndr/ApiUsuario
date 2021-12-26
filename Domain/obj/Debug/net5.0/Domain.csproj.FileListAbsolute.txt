@@ -1,0 +1,15 @@
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\bin\Debug\net5.0\Domain.deps.json
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\bin\Debug\net5.0\Domain.dll
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\bin\Debug\net5.0\ref\Domain.dll
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\bin\Debug\net5.0\Domain.pdb
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\bin\Debug\net5.0\Infrastructure.dll
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\bin\Debug\net5.0\Infrastructure.pdb
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\obj\Debug\net5.0\Domain.csproj.CopyComplete
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\obj\Debug\net5.0\Domain.dll
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\obj\Debug\net5.0\ref\Domain.dll
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Domain\obj\Debug\net5.0\Domain.pdb
