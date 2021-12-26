@@ -26,7 +26,7 @@ namespace Domain.Services
             string password = _hashProvider.GenerateHash(request.Password);
 
             if (user.Password != password)
-                throw new Exception("User and/or password is invalid");
+                throw new UnauthorizedAccessException("User and/or password is invalid");
 
             return user;
         }
