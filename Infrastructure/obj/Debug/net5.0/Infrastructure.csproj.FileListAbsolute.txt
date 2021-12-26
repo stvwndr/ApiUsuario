@@ -1,0 +1,12 @@
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+E:\Projetos\Entrevistas\TOTVz\ApiUsuario\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
