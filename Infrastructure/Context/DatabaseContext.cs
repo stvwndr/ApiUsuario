@@ -14,7 +14,7 @@ namespace Infrastructure.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Database=prisma;Username=johndoe;Password=randompassword");
+            optionsBuilder.UseNpgsql("Host=localhost;Database=database;Username=johndoe;Password=randompassword;Port=5432");
         }
     }
 }
