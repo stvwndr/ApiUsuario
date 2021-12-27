@@ -34,9 +34,19 @@ namespace Infrastructure.Providers
 
         public User GetByEmail(string email)
         {
-            return _database.Users
+            var user = _database.Users
                 .Where(u => u.Email == email)
                 .FirstOrDefault();
+
+            if (user == null)
+                return null;
+
+            user.LastLogin = DateTime.Now.ToUniversalTime();
+
+            _database.Users.Update(user);
+            _database.SaveChanges();
+
+            return user;
         }
 
         public List<User> GetUsers()
