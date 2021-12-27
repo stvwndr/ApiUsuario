@@ -33,7 +33,6 @@ namespace Api.Controllers
             }
             catch(Exception ex)
             {
-                var error = new { Message = ex.Message };
                 return StatusCode(400, _notification.GetError(ex));
             }
         }
