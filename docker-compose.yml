@@ -1,30 +1,37 @@
-﻿version: '3.8'
+version: '3.8'
+
 networks:
   dockerapi-dev:
       driver: bridge
+
 services:
   dockerapi:
+    container_name: user-api
     image: dockerapi:latest
     depends_on:
-      - "postgres"
+      - postgres_db
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - 8080:80
     networks:
       - dockerapi-dev
-  postgres:
-    container_name: database
+
+  postgres_db:
+    container_name: database-user-api
     restart: always
     image: postgres:10
     environment:
-      POSTGRES_DB: database
+      POSTGRES_DB: usersdb
       POSTGRES_USER: johndoe
-      POSTGRES_PASSWORD: randompassword  
+      POSTGRES_PASSWORD: randompassword
     ports:
       - 5432:5432
     volumes:
       - pg-data:/var/lib/postgres/data
+    networks:
+      - dockerapi-dev
+
 volumes:
   pg-data:
