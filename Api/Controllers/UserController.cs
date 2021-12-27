@@ -39,7 +39,7 @@ namespace Api.Controllers
         {
             try
             {
-                return StatusCode(401, _domain.CreateUser(request));
+                return StatusCode(201, _domain.CreateUser(request));
             }
             catch(Exception ex)
             {
