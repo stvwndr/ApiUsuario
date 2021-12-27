@@ -39,7 +39,7 @@ namespace Domain.Services
 
             var response = _userProvider.CreateUser(user);
 
-            if(user == null)
+            if(response == null)
                 throw new Exception("This user already exists");
 
             return response;            
