@@ -33,7 +33,7 @@ user-api       |       Hosting environment: Production
 user-api       | info: Microsoft.Hosting.Lifetime[0]
 user-api       |       Content root path: /app
 ```
-**OBS**: Por padrão, a rota inicializa na porta **8080**
+**OBS**: Por padrão, a rota inicializa na porta **8080**.
 
 ## Rotas
 A aplicação possui algumas rotas para utilização, abaixo uma tabela com cada uma delas:
@@ -48,9 +48,10 @@ A aplicação possui algumas validações, elas são:
 - `/login`:
   - Valida se o email está registrado no banco, caso esteja retorna o usuario, caso contrario, retorna um erro de validação.
   - Valida se a senha está correta, caso esteja retorna o usuario, caso contrario, retorna um erro de validação.
-- `/user/create`
+- `/user/create`:
   - Valida se o usuario existe no banco, caso não exista, retorna os dados criados, caso contrario, retorna um erro de validação.
-### Exemplos de uso
+
+## Exemplos de uso
 <br />
 
 `/user`
@@ -90,7 +91,7 @@ http://localhost:8080/user
 ```http
 http://localhost:8080/login
 ```
-*BODY*:
+*Body*:
 ```json
 {
   "email": "marry.any@hotmail.com",
@@ -108,5 +109,33 @@ http://localhost:8080/login
     "created": "2021-12-27T17:36:46.933761",
     "modified": "2021-12-27T17:36:46.933761",
     "lastLogin": "2021-12-27T17:36:46.933761"
-},
+}
+
+```
+`/create/user`
+
+*Uso*:
+```http
+http://localhost:8080/login
+```
+*Body*:
+```json
+{
+  "user": "Marry any",
+  "email": "marry.any@hotmail.com",
+  "password": "anypassword",
+}
+```
+
+*Retorno*:
+```json
+{
+    "id": 2,
+    "name": "Marry Any",
+    "email": "marry.any@hotmail.com",
+    "password": "423SD2FC53AF0FB941BC1BB42737CE4F56SG1",
+    "created": "2021-12-27T17:36:46.933761",
+    "modified": "2021-12-27T17:36:46.933761",
+    "lastLogin": "2021-12-27T17:36:46.933761"
+}
 ```
